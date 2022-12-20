@@ -26,10 +26,11 @@
                 <div class="col-md-9">
                     <div class="card card-outline card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Primary Outline</h3>
-                
+                            <h3 class="card-title">Tela Principal</h3>
+
                             <div class="card-tools">
-                                <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i>
+                                <button type="button" class="btn btn-tool" data-card-widget="maximize"><i
+                                        class="fas fa-expand"></i>
                                 </button>
                             </div>
                             <!-- /.card-tools -->
@@ -38,7 +39,8 @@
                         <div class="card-body">
                             <div class="btn-group" style="margin-right: 1rem;">
                                 <button type="button" class="btn btn-sm btn-warning">{{'export'}}</button>
-                                <button type="button" class="btn btn-sm btn-warning dropdown-toggle dropdown-icon" data-toggle="dropdown">
+                                <button type="button" class="btn btn-sm btn-warning dropdown-toggle dropdown-icon"
+                                    data-toggle="dropdown">
                                     <span class="sr-only">Toggle Dropdown</span>
                                 </button>
                                 <div class="dropdown-menu" role="menu">
@@ -58,11 +60,11 @@
                                     </div>
                                     <div class="col-md-12 col-sm-6 col-12">
                                         <div class="info-box shadow">
-                                            <span class="info-box-icon bg-warning">A34</span>
-                                    
+                                            <span class="info-box-icon bg-warning">A</span>
+
                                             <div class="info-box-content">
-                                                <span class="info-box-text">Shadows</span>
-                                                <span class="info-box-number">Regular</span>
+                                                <span class="info-box-text">Senha: <a>20</a></span>
+                                                <span class="info-box-number">Balcão:<a> 1</a></span>
                                             </div>
                                             <!-- /.info-box-content -->
                                         </div>
@@ -70,11 +72,11 @@
                                     </div>
                                     <div class="col-md-12 col-sm-6 col-12">
                                         <div class="info-box shadow">
-                                            <span class="info-box-icon bg-warning">A34</span>
-                                    
+                                            <span class="info-box-icon bg-warning">B</span>
+
                                             <div class="info-box-content">
-                                                <span class="info-box-text">Shadows</span>
-                                                <span class="info-box-number">Regular</span>
+                                                <span class="info-box-text">Senha: <a> 3</a></span>
+                                                <span class="info-box-number">Balcão:<a> 3</a></span>
                                             </div>
                                             <!-- /.info-box-content -->
                                         </div>
@@ -82,11 +84,11 @@
                                     </div>
                                     <div class="col-md-12 col-sm-6 col-12">
                                         <div class="info-box shadow">
-                                            <span class="info-box-icon bg-warning">A34</span>
-                                    
+                                            <span class="info-box-icon bg-warning">C</span>
+
                                             <div class="info-box-content">
-                                                <span class="info-box-text">Shadows</span>
-                                                <span class="info-box-number">Regular</span>
+                                                <span class="info-box-text">Senha: <a> 5</a></span>
+                                                <span class="info-box-number">Balcão:<a> 2</a></span>
                                             </div>
                                             <!-- /.info-box-content -->
                                         </div>
@@ -94,11 +96,11 @@
                                     </div>
                                     <div class="col-md-12 col-sm-6 col-12">
                                         <div class="info-box shadow">
-                                            <span class="info-box-icon bg-warning">A34</span>
-                                    
+                                            <span class="info-box-icon bg-warning">D</span>
+
                                             <div class="info-box-content">
-                                                <span class="info-box-text">Shadows</span>
-                                                <span class="info-box-number">Regular</span>
+                                                <span class="info-box-text">Senha:<a> 2</a></span>
+                                                <span class="info-box-number">Balcão: <a> 4</a></span>
                                             </div>
                                             <!-- /.info-box-content -->
                                         </div>
@@ -116,7 +118,16 @@
                                         <!-- /.card -->
                                     </div>
                                     <div class="col-md-12">
-                                        <img src="assets/images/interior_960_400.jpg" width="100%" alt="slider">
+                                        <!--img src="assets/images/interior_960_400.jpg" width="100%" alt="slider"-->
+                                        <div id="bg">
+                                            <div id="mainbox">
+                                                <div id="imgbox">
+                                                    <img src="assets/images/interior_960_400.jpg"  height="380px" width="750px" alt="slider"/>
+                                                    <img src="assets/images/images_cms-image-000015184.jpg" height="380px" width="750px" alt="slider"/>
+                                                    <img src="assets/images/images_cms-image-000024695.jpg" height="380px" width="750px" alt="slider" />
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -130,9 +141,9 @@
                         <div class="card-header">
                             <h3 class="card-title">
                                 <i class="ion ion-clipboard mr-1"></i>
-                                To Do List
+                                Lista de Espera
                             </h3>
-                    
+
                             <div class="card-tools">
                                 <ul class="pagination pagination-sm">
                                     <li class="page-item"><a href="#" class="page-link">&laquo;</a></li>
@@ -145,18 +156,178 @@
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <ul class="todo-list" data-widget="todo-list">
+                            <style>
+                                #mainbox {
+                                    margin-top: -10px;
+                                    margin-left: -230px;
+                                    margin-bottom: 10px;
+                                    width: 100%;
+                                    height: 600px;
+                                    position: relative;
+                                    left: 15%;
+                                    /*border-radius: 50px 50px;*/
+                                    overflow: hidden;
+                                    border-bottom: #05d5e8 3px solid;
+                                }
+
+                                #imgbox {
+                                    width: 300%;
+                                    position: relative;
+                                    left: 0;
+                                    animation: slidemove 30s infinite;
+                                }
+
+                                #imgbox img {
+                                    width: 33.33%;
+                                    float: left;
+
+                                }
+
+                                @-webkit-keyframes slidemove {
+                                    0% {
+                                        left: 0%;
+                                    }
+
+                                    25% {
+                                        left: -100%;
+                                    }
+
+                                    50% {
+                                        left: -200%;
+                                    }
+
+                                    75% {
+                                        left: -100%;
+                                    }
+
+                                    100% {
+                                        left: 0%;
+                                    }
+                                }
+
+                                #bg {
+                                    position: relative;
+                                    height: 10%;
+                                    width: auto;
+                                    left: 98px;
+                                    
+
+                                }
+
+                                table {
+                                    text-align: center;
+                                }
+
+                                td {
+                                    padding: 10px;
+                                    width: 150px;
+                                    border-radius: 10px;
+                                    border-style: outset;
+                                }
+
+                                th {
+                                    background: rgb(83, 245, 196);
+                                    border: 1px solid black;
+
+                                }
+
+                                #td1 {
+                                    background: rgb(228, 241, 240);
+                                }
+                            </style>
+                            <table class="todo-list" data-widget="todo-list">
+                                <tr>
+                                    <th>
+                                        <h1><strong>SENHA</strong></h1>
+                                    </th>
+                                    <th>
+                                        <h1><strong>NÚMERO</strong></h1>
+                                    </th>
+                                    <th>
+                                        <h1><strong>BALCÃO</strong></h1>
+                                    </th>
+
+                                </tr>
+                                <tr>
+                                    <td id="td1">
+                                        <h1><strong>A</strong></h1>
+                                    </td>
+                                    <td id="td2">
+                                        <h1><strong>20</strong></h1>
+                                    </td>
+                                    <td id="td3">
+                                        <h1><strong>1</strong></h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="td1">
+                                        <h1><strong>B</strong></h1>
+                                    </td>
+                                    <td id="td2">
+                                        <h1><strong>3</strong></h1>
+                                    </td>
+                                    <td id="td3">
+                                        <h1><strong>3</strong></h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="td1">
+                                        <h1><strong>C</strong></h1>
+                                    </td>
+                                    <td id="td2">
+                                        <h1><strong>5</strong></h1>
+                                    </td>
+                                    <td id="td3">
+                                        <h1><strong>2</strong></h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="td1">
+                                        <h1><strong>D</strong></h1>
+                                    </td>
+                                    <td id="td2">
+                                        <h1><strong>2</strong></h1>
+                                    </td>
+                                    <td id="td3">
+                                        <h1><strong>4</strong></h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="td1">
+                                        <h1><strong>E</strong></h1>
+                                    </td>
+                                    <td id="td2">
+                                        <h1><strong>14</strong></h1>
+                                    </td>
+                                    <td id="td3">
+                                        <h1><strong>1</strong></h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="td1">
+                                        <h1><strong>F</strong></h1>
+                                    </td>
+                                    <td id="td2">
+                                        <h1><strong>1</strong></h1>
+                                    </td>
+                                    <td id="td3">
+                                        <h1><strong>2</strong></h1>
+                                    </td>
+                                </tr>
+
+                            </table>
+                            <!--ul class="todo-list" data-widget="todo-list">
                                 <li>
-                                    <!-- drag handle -->
+                                    <!-- drag handle >
                                     <span class="handle">
                                         <i class="fas fa-ellipsis-v"></i>
                                         <i class="fas fa-ellipsis-v"></i>
                                     </span>
-                                    <!-- todo text -->
+                                    <!-- todo text ->
                                     <span class="text">Design a nice theme</span>
-                                    <!-- Emphasis label -->
+                                    <!-- Emphasis label ->
                                     <small class="badge badge-danger"><i class="far fa-clock"></i> 2 mins</small>
-                                    <!-- General tools such as edit or delete-->
+                                    <!-- General tools such as edit or delete->
                                     <div class="tools">
                                         <i class="fas fa-edit"></i>
                                         <i class="fas fa-trash-o"></i>
@@ -223,11 +394,12 @@
                                         <i class="fas fa-trash-o"></i>
                                     </div>
                                 </li>
-                            </ul>
+                            </ul-->
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer clearfix">
-                            <button type="button" class="btn btn-primary float-right"><i class="fas fa-plus"></i>
+                            <button type="button" class="btn btn-primary float-right" onclick="solicitar()"><i
+                                    class="fas fa-plus"></i>
                                 Solicitar Senha</button>
                         </div>
                     </div>
